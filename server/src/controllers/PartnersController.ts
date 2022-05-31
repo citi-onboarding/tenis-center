@@ -22,13 +22,13 @@ export default class PartnersController implements Crud {
 
     async delete(request: Request, response: Response){
         const { id } = request.params;
-        const {value: partnersFound, message } = await Citi.findByID(controllers, id);
-        }
+        const {value: partnersFound, message } = await Citi.findByID(Partners, id);
+        
 
-        if(!partnersFound) return Response.status(400).send({ message });
+        if(!partnersFound) return response.status(400).send({ message });
 
         const {httpStatus, messageFromDelete } = await Citi.deleteValue(Partners, partnersFound);
-        return Response.status(htttpStatus).send({ messageFromDelete });
+        return response.status(httpStatus).send({ messageFromDelete });
     
     }
 
@@ -37,12 +37,12 @@ export default class PartnersController implements Crud {
         const {image} = request.body;
 
         const isAnyUndefined = Citi.areValuesUndefined(image);
-        if(isAnyUndefined) return Response.status(400).send();
+        if(isAnyUndefined) return response.status(400).send();
 
         const partnersWithUpdatedValues = { image };
 
         const { httpStatus, messageFromUpdate } = await Citi.updateValue(Partners, id, partnersWithUpdatedValues);
-        return Response.status(httpStatus).send({ messageFromUpdated });
+        return response.status(httpStatus).send({ messageFromUpdate });
     }
 
 
