@@ -1,13 +1,13 @@
 import express from 'express';
-import UserController from '@controllers/UserController'
+import PartnersController from '@controllers/PartnersControllers'
 
 const routes = express.Router();
-const userController = new UserController();
+const PartnersController = new PartnersController ();
 
-routes.post('/user', userController.create);
-routes.get('/user', userController.get);
-routes.delete('/user/:id', userController.delete);
-routes.put('/user/:id', userController.update);
+routes.post('/partners', PartnersController.create);
+routes.get('/partners', PartnersController.get);
+routes.delete('/partners/:id', PartnersController.delete);
+routes.put('/partners/:id', PartnersController.update);
 
 
 export default routes;
