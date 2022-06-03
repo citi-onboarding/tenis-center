@@ -2,15 +2,13 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
-import { Card } from './components/Card 1'
-
-
+import { Card , Partners} from './components'
 import { Home } from './pages';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Home/>
+      <Partners/>
       <GlobalStyle/>
     </ThemeProvider>
   );
