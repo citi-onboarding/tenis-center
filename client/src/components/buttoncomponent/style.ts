@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 type ButtonProps = {
     backgroundColor?: string;
+    hoverBackground?: string;
 }
 
 export const ButtonComp = styled.div `
@@ -12,15 +13,13 @@ export const ButtonComp = styled.div `
     align-items: center;
     background-color: ${(props: ButtonProps) => props.backgroundColor};
     &:hover{
-        background-color: #0262B6;
-        letter-spacing: 1px;
+        background-color: ${(props: ButtonProps) => props.hoverBackground};
     }
 `
 
 export const ButtonText = styled.div `
     font-family: 'Barlow';
     font-style: normal;
-    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;

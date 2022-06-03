@@ -4,17 +4,19 @@ import { ButtonComp, ButtonText } from "./style"
 
 type ButtonProps = {
     text: string;
-    OnClick: ()=> void;
+    onClick: ()=> void;
     children?: React.ReactNode;
     width: string;
     height: string;
     color?: string;
     backgroundColor?: string;
+    hoverBackground?: string;
+    fontWeight: number;
 }
 
-const Button: React.ElementType = ({ text, OnClick, children, width, height, backgroundColor}: ButtonProps) => {
+const Button: React.ElementType = ({ text, onClick, children, width, height, backgroundColor, hoverBackground, fontWeight}: ButtonProps) => {
     return (
-        <ButtonComp onClick={OnClick} style={{ width, height, backgroundColor}}>
+        <ButtonComp onClick={onClick} style={{ width, height, fontWeight}} backgroundColor={backgroundColor} hoverBackground={hoverBackground}>
         <ButtonText>{text}</ButtonText>
             {children}
         </ButtonComp>
