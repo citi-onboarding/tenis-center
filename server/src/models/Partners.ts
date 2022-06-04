@@ -4,6 +4,9 @@ import { Entity, PrimaryGeneratedColumn, Column} from "typeorm"
 export class Partners {
 
     @PrimaryGeneratedColumn ()
+    id: number
+
+    @Column ()
     image: string
 
 }
