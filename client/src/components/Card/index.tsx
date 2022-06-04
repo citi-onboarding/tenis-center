@@ -1,6 +1,6 @@
 import React from "react";
 import { CardContainer, CardImage } from './styles';
-import { Photo } from './../../como-otimizar-imagens-web-internet1.jpg';
+import { Photo } from '../../assets/index';
 
 type CardProps = {
 
