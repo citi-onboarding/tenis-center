@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/react-slick": "^0.23.8",
+    "slick-carousel": "^1.8.1"
+  }
+}
