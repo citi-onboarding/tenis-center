@@ -1,9 +1,17 @@
 import express from 'express';
+import PartnersController from '@controllers/PartnersController'
 import UserController from '@controllers/UserController'
 import ServiceController from '@controllers/ServiceController'
 import ProjectController from '@controllers/ProjectController';
 
 const routes = express.Router();
+const partnersController = new PartnersController();
+
+routes.post('/partners', partnersController.create);
+routes.get('/partners', partnersController.get);
+routes.delete('/partners/:id', partnersController.delete);
+routes.put('/partners/:id', partnersController.update);
+
 const userController = new UserController();
 const serviceController = new ServiceController();
 const projectController = new ProjectController();
