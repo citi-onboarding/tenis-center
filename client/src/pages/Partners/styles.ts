@@ -43,7 +43,7 @@ export const Filho = styled.div`
     width: 80%;
 `
 
-export const CardPartner = styled.div`
+export const CardPartner = styled.img`
     display: flex;
     flex-direction: column;
     justify-content: center;

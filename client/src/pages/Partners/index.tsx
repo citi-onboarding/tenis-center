@@ -8,7 +8,8 @@ import Slider from "react-slick";
 import axios from "axios";
 
 type CardProps = {
-    image2: string;
+    id: number;
+    image: string;
 };
 
 const PrevArrow: React.ElementType = (props) => {
@@ -42,7 +43,7 @@ const Slide: React.ElementType = () => {
   const [CarrosselInfo, setCarrosselInfo] = useState<CardProps[]>([]);
 
   async function loadCarrosselInfo() {
-      const res = await axios.get('/partners');
+      const res = await axios.get('http://localhost:3001/partners');
       const { data } = res;
       console.log(data);
       setCarrosselInfo(data);
@@ -60,20 +61,23 @@ const Slide: React.ElementType = () => {
       prevArrow: <PrevArrow/>,
       nextArrow: <NextArrow/>,
     };
+
     return (
       <Pai>
         <Filho>
           <Slider {...settings}>
-            {CarrosselInfo?.map(({image2}) => (
-                  <Card image={image2}/>
-              ))}
+              {CarrosselInfo?.map(({image}) => (
+                  <div>
+                    <CardPartner src={image}/>
+                  </div>
+                ))}
           </Slider>
         </Filho>
       </Pai>
     );
   }
 
-export const Partners: React.ElementType = ({image2}: CardProps) => {
+export const Partners: React.ElementType = ({image}: CardProps) => {
     return (
         <PartnersBackgroud>
             <Title>Nossos <Blue>parceiros</Blue></Title>
