@@ -10,7 +10,7 @@ type CardProps = {
 export const Card: React.ElementType = ({ image }: CardProps) => {
    return(
     <CardContainer>
-    <CardImage src = { Photo }/>
+    <CardImage src = { image }/>
 
    </CardContainer>
 
