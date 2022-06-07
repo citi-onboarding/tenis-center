@@ -3,12 +3,14 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
 import { Card } from './components/Card';
-import { FooterContainer } from './containers/footer'
+import { Footer } from './pages/footer'
+
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-       <FooterContainer />
+       <Card/>
+       <Footer/>
       <GlobalStyle/>
     </ThemeProvider>
   );
