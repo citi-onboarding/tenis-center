@@ -2,10 +2,10 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
-import { Card } from './components/Card 1'
 
 
 import { Home } from './pages';
+
 
 function App() {
   return (
