@@ -41,25 +41,17 @@ export const FooterDescription = styled.h3 `
 
 `;
 
-export const FooterLinks = styled.h3 `
-  position: absolute;
-  width: 447.75px;
-  height: 69.6px;
-  left: 354.42px;
-  bottom: 112.53px;
-
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 36px;
-
+export const FooterLinks = styled.img `
+  height: 40px;
+  width: 38px;
+  left: 1207px;
+  top: 3024.912109375px;
+  border-radius: 0px;
   display: flex;
-  align-items: center;
-
-  color: #FFFFFF;
-
+  justify-content: space-between;
 `;
+
+
 
 
 
