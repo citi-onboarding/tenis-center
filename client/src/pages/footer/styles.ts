@@ -16,7 +16,7 @@ export const FooterContainer = styled.div `
 export const FooterImage = styled.img `
   height: 125.087890625px;
   width: 144.4607391357422px;
-  margin-left: 130.71;
+  margin-left: 130.71px;
   margin-top: 54.56px;
   border-radius: 0px;
 
@@ -64,16 +64,19 @@ export const FooterLinks = styled.img `
 `;
 
 export const FooterMadewith = styled.h3 `
+  position: absolute;
   width: 248px;
   height: 27px;
   bottom: 96.18px;
-
+  margin-left: 973px;
+  margin-top: 143px;
   font-family: 'Sora';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   text-align: center;
+  opacity: 0.5;
 
   color: #FFFFFF;
 `;
