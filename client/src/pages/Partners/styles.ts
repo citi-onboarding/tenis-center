@@ -48,7 +48,6 @@ export const CardPartner = styled.img`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 16px 24px;
     gap: 10px;
 
     width: 160.66px;

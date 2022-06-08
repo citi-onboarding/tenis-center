@@ -75,7 +75,7 @@ const Slide: React.ElementType = () => {
         </Filho>
       </Pai>
     );
-  }
+}
 
 export const Partners: React.ElementType = ({image}: CardProps) => {
     return (
