@@ -55,6 +55,7 @@ export const FooterLinks = styled.img `
   height: 40px;
   width: 38px;
   margin-left: 35px;
+  margin-right: 300px;
   margin-top: 79px;
   border-radius: 0px;
   display: flex;
