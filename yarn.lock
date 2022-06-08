@@ -2,6 +2,7 @@
 # yarn lockfile v1
 
 
+<<<<<<< HEAD
 "@types/prop-types@*":
   version "15.7.5"
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
@@ -42,3 +43,5 @@ slick@^1.12.2:
   version "1.12.2"
   resolved "https://registry.npmjs.org/slick/-/slick-1.12.2.tgz"
   integrity sha1-vQSN23TefRymkV+qSldXCzVQwtc=
+=======
+>>>>>>> develop
