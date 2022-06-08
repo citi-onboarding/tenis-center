@@ -35,6 +35,7 @@ export const FooterDescription = styled.h3 `
   width: 447.75px;
   height: 69.6px;
   margin-top: 84.97px;
+  margin-right: 300px;
   margin-left: 34px;
   bottom: 112.53px;
 
@@ -55,7 +56,6 @@ export const FooterLinks = styled.img `
   height: 40px;
   width: 38px;
   margin-left: 35px;
-  margin-right: 300px;
   margin-top: 79px;
   border-radius: 0px;
   display: flex;
