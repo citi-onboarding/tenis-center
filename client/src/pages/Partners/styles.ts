@@ -37,10 +37,11 @@ export const Pai = styled.div`
     top: 70px;
     display: flex;
     justify-content: center;
+    left: 25px;
 `
 
 export const Filho = styled.div`
-    width: 97%;
+    width: 100%;
 `
 
 export const CardPartner = styled.img`

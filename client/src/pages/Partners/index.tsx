@@ -30,7 +30,7 @@ const NextArrow: React.ElementType = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, top: "-28px", right: "78px" }}
+      style={{ ...style, top: "-28px", right: "140px" }}
       onClick={onClick}
     >
       <img src={Next} alt="" />
