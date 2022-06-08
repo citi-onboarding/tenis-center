@@ -10,6 +10,8 @@ export const FooterContainer = styled.div `
 
   background: #064377;
   box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: row;
 `
 
 export const FooterImage = styled.img `
@@ -48,7 +50,17 @@ export const FooterLinks = styled.img `
   top: 3024.912109375px;
   border-radius: 0px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+`;
+
+export const FooterDivider = styled.div `
+  height: 80.26574707031257px;
+  width: 0px;
+  left: 320.21337890625px;
+  top: 3022.8671875px;
+  border-radius: 0px;
+
 `;
 
 
