@@ -13,6 +13,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Home/>
       <GlobalStyle/>
+      <Service/>
     </ThemeProvider>
 
   );
