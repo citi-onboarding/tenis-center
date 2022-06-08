@@ -1,7 +1,7 @@
 import LogoCITi from './logo.png';
-import next from './next.png';
-import prev from './prev.png';
+import nextArrow from './next.png';
+import prevArrow from './prev.png';
 
 export {
-    LogoCITi, next, prev
+    LogoCITi, nextArrow, prevArrow
 };

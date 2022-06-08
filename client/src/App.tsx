@@ -5,14 +5,19 @@ import { GlobalStyle } from './styles/global';
 
 
 import { Home } from './pages';
+import { Service } from './pages';
 
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+   /* <ThemeProvider theme={theme}>
       <Home/>
       <GlobalStyle/>
+      <Service/>
     </ThemeProvider>
+    */
+
+    <Service/>
   );
 }
 

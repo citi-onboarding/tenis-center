@@ -1,17 +1,34 @@
 import styled from 'styled-components';
 
 export const ServiceContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 781px;
+    left: 0px;
+    top: 753px;
+    background-color: #FFFFFF;
 
 `
 export const Carousel = styled.div`
-
+    padding: 0px;
+    gap: 32px;
+    width: 1045px;
+    height: 489px;
+    margin-left: 198px;
+    margin-right: 198px;
+    top: 73px;
 `
 
-export const title = styled.div`
+export const Title = styled.h1`
+    display: flex;
+    flex-direction: row;
+    align-items: left;
     width: 392px;
     height: 66px;
-    left: 124px;
-    top: 833px;
+    margin-left: 124px;
+    margin-top: 77px;
+    margin-right: 924px;
     font-family: 'Barlow';
     font-style: italic;
     font-weight: 600;
@@ -19,7 +36,8 @@ export const title = styled.div`
     line-height: 66px;
     color: #1E1E1E;
 `
-export const h1 = styled.div`
+export const Contrast = styled.div`
+    margin-left: 10px;
     font-weight: 900;
     color: #3582CA;
 `
