@@ -40,7 +40,7 @@ export const Pai = styled.div`
 `
 
 export const Filho = styled.div`
-    width: 80%;
+    width: 97%;
 `
 
 export const CardPartner = styled.img`
