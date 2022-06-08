@@ -16,8 +16,8 @@ export const FooterContainer = styled.div `
 export const FooterImage = styled.img `
   height: 125.087890625px;
   width: 144.4607391357422px;
-  margin-left: 130.71435546875px;
-  margin-top: 3000.4560546875px;
+  margin-left: 130.71;
+  margin-top: 54.56px;
   border-radius: 0px;
 
 `;
@@ -26,14 +26,15 @@ export const FooterDivider = styled.div `
   height: 80.26574707031257px;
   width: 1.5px;
   background-color: white;
-  margin-left: 320.21337890625px;
-  margin-top: 3022.8671875px;
+  margin-left: 320.21px;
+  margin-top: 76.97px;
   border-radius: 0px;
 
 `;
 export const FooterDescription = styled.h3 `
   width: 447.75px;
   height: 69.6px;
+  margin-top: 84.97px;
   margin-left: 354.42px;
   bottom: 112.53px;
 
@@ -53,8 +54,8 @@ export const FooterDescription = styled.h3 `
 export const FooterLinks = styled.img `
   height: 40px;
   width: 38px;
-  margin-left: 1207px;
-  margin-top: 3024.912109375px;
+  margin-left: 79.01px;
+  margin-top: 1054px;
   border-radius: 0px;
   display: flex;
   flex-direction: row;
@@ -64,6 +65,7 @@ export const FooterLinks = styled.img `
 export const FooterMadewith = styled.h3 `
   width: 248px;
   height: 27px;
+  margin-top: 143.92px;
   margin-left: 973.96px;
   bottom: 96.18px;
 
