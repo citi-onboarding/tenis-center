@@ -23,6 +23,15 @@ export const FooterImage = styled.img `
 
 `;
 
+export const FooterDivider = styled.div `
+  height: 80.26574707031257px;
+  width: 0px;
+  background-color: white;
+  left: 320.21337890625px;
+  top: 3022.8671875px;
+  border-radius: 0px;
+
+`;
 export const FooterDescription = styled.h3 `
   position: absolute;
   width: 447.75px;
@@ -54,14 +63,7 @@ export const FooterLinks = styled.img `
   justify-content: space-between;
 `;
 
-export const FooterDivider = styled.div `
-  height: 80.26574707031257px;
-  width: 0px;
-  left: 320.21337890625px;
-  top: 3022.8671875px;
-  border-radius: 0px;
 
-`;
 
 
 
