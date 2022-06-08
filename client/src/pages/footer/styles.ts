@@ -65,10 +65,10 @@ export const FooterLinks = styled.img `
 
 export const FooterMadewith = styled.h3 `
   position: absolute;
-  width: 248px;
+  width: 270px;
   height: 27px;
   bottom: 96.18px;
-  margin-left: 973px;
+  margin-left: 1156px;
   margin-top: 143px;
   font-family: 'Sora';
   font-style: normal;

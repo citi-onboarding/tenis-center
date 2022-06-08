@@ -9,7 +9,6 @@ import { Footer } from './pages/footer'
 function App() {
   return (
     <ThemeProvider theme={theme}>
-       <Card/>
        <Footer/>
       <GlobalStyle/>
     </ThemeProvider>
