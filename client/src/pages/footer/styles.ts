@@ -25,7 +25,7 @@ export const FooterImage = styled.img `
 
 export const FooterDivider = styled.div `
   height: 80.26574707031257px;
-  width: 0px;
+  width: 1.5px;
   background-color: white;
   left: 320.21337890625px;
   top: 3022.8671875px;
@@ -63,7 +63,25 @@ export const FooterLinks = styled.img `
   justify-content: space-between;
 `;
 
+export const FooterMadewith = styled.h3 `
+  position: absolute;
+  width: 447.75px;
+  height: 69.6px;
+  left: 354.42px;
+  bottom: 112.53px;
 
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+
+`;
 
 
 
