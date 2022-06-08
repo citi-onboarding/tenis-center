@@ -21,3 +21,45 @@ export const FooterImage = styled.img `
 
 `;
 
+export const FooterDescription = styled.h3 `
+  position: absolute;
+  width: 447.75px;
+  height: 69.6px;
+  left: 354.42px;
+  bottom: 112.53px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+
+`;
+
+export const FooterLinks = styled.h3 `
+  position: absolute;
+  width: 447.75px;
+  height: 69.6px;
+  left: 354.42px;
+  bottom: 112.53px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+
+`;
+
+
+
