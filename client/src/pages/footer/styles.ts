@@ -64,23 +64,19 @@ export const FooterLinks = styled.img `
 `;
 
 export const FooterMadewith = styled.h3 `
-  position: absolute;
-  width: 447.75px;
-  height: 69.6px;
-  left: 354.42px;
-  bottom: 112.53px;
+  width: 248px;
+  height: 27px;
+  left: 973.96px;
+  bottom: 96.18px;
 
-  font-family: 'Rubik';
+  font-family: 'Sora';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 36px;
-
-  display: flex;
-  align-items: center;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
 
   color: #FFFFFF;
-
 `;
 
 
