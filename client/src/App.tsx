@@ -9,11 +9,11 @@ function App() {
     <ThemeProvider theme={theme}>
       <Project/>
       <Service/>
-      <
+      <Partners/>
       <GlobalStyle/>
     </ThemeProvider>
 
   );
 }
 
-export default App;
+export default App;
