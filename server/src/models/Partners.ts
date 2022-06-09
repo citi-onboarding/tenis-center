@@ -6,7 +6,7 @@ export class Partners {
     @PrimaryGeneratedColumn ()
     id: number
 
-    @Column ()
+    @Column()
     image: string
 
 }
