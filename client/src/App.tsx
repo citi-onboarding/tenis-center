@@ -7,9 +7,8 @@ import { Partners, Service, Project } from './pages';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Service/>
       <Project/>
-      <Partners/>
+      
       <GlobalStyle/>
     </ThemeProvider>
 

@@ -1,18 +1,24 @@
 import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
-    width: 1441px;
+    width: 100%;
     height: 833px;
     left: -1px;
     top: 1625.54px;
     background-color: #FFFFFF;
     `
 
+export const LeftPart = styled.div`
+    display: flex;
+    flex-direction: column;
+    padding: 58.28px;
+`
+
 export const Title = styled.h1`
     width: 636.63px;
     height: 132px;
     margin-left: 124.96px;
-    top: 133px;
+    margin-top: 133px;
     font-family: 'Barlow';
     font-style: italic;
     font-weight: 600;
@@ -40,11 +46,31 @@ export const Text = styled.div`
     text-align: justify;
     color: #000000;
 `
-export const Image = styled.div`
-    width: 664.63px;
-    height: 664.63px;
-    left: 898.96px;
-    top: 1710.41px;
+export const Image = styled.img`
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    left: 950px;
+    top: 210.41px;
     border-radius: 332.317px;
 `
-export const BackgroundImage = styled.div``
+export const BackgroundImage = styled.img`
+    align-self: flex-end;
+    position: absolute;
+    width: 798.56px;
+    height: 906.52px;
+    left: 888px;
+    top: 28.67px;
+
+`
+
+export const Arrow = styled.img`
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    left: 261.53px;   
+    margin-left: 14.72px;
+`
+export const ButtonDiv = styled.div`
+    margin-left: 123.96px;
+`

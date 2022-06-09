@@ -1,5 +1,5 @@
 import React, { ReactHTMLElement } from "react"
-import { ButtonComp, ButtonText } from "./style"
+import { ButtonComp, ButtonText, Children } from "./style"
 
 
 type ButtonProps = {
@@ -17,7 +17,7 @@ const Button: React.ElementType = ({ text, onClick, children, width, height, bac
     return (
         <ButtonComp onClick={onClick} style={{ width, height, fontWeight}} backgroundColor={backgroundColor} hoverBackground={hoverBackground}>
         <ButtonText>{text}</ButtonText>
-            {children}
+        <Children> {children} </Children>
         </ButtonComp>
     );
 }

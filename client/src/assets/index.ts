@@ -5,7 +5,8 @@ import LogoPB from './Logo B&W.png';
 import Next from './BiggerNextArrow.png';
 import Prev from './PrevArrow.png';
 import contorno from './contorno.png'
+import seta from './seta.png'
 
 export {
-    LogoCITi, nextArrow, prevArrow, LogoPB, Next, Prev, contorno
+    LogoCITi, nextArrow, prevArrow, LogoPB, Next, Prev, contorno, seta
 };
