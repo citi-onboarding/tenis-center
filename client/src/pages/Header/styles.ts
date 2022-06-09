@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const ParentDiv = styled.div`
-    width: 1440px;
-    height: 753px;
+    width: 100%;
     
     margin: auto;
     position: relative;
@@ -61,7 +60,7 @@ export const ArrowRight = styled.div`
     width: 26.355830988298777px;
     
     position: absolute;
-    left: 22px;
+    left: 20px;
     bottom: 20px;
 
     background: #F5F5F5;
@@ -73,7 +72,7 @@ export const ArrowLeft = styled.div`
     width: 26.355830988298777px;
 
     position: absolute;
-    left: 4px;
+    left: 3.5px;
     bottom: 20px;
 
     background: #F5F5F5;
@@ -95,8 +94,8 @@ export const Anchor = styled.a`
 
 export const ArrowHolder = styled.div`
     position: absolute;
-    right: 700px;
-    bottom: 50px;
+    right: 698px;
+    bottom: 80px;
 
     width: 55px;
     height: 55px;
