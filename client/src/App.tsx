@@ -9,7 +9,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <HeaderTennis/>
-      <Service/>
+      <Service id="service"/>
       <Partners/>
       <GlobalStyle/>
     </ThemeProvider>

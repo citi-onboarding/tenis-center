@@ -52,3 +52,8 @@ export const DownArrow = styled.img`
     left: 695px;
     top: 675px;
 `
+
+export const NullDiv = styled.div`
+    width: 0px;
+    height: 0px;
+`
