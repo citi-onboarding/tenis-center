@@ -16,7 +16,7 @@ function App() {
       <Service id="service"/>
       <Partners id="partners"/>
       <Footer id="footer"/>
-      <GlobalStyle/>
+      <GlobalStyle/
     </ThemeProvider>
 
   );
