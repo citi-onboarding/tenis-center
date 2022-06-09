@@ -3,17 +3,18 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
 import { Card } from './components/Card';
-import { Footer } from './pages/footer'
-import { Home  , Partners, HeaderTennis, Service } from './pages';
+import { Footer } from './pages/footer';
+import { Navbar } from './pages/navbar';
+import { Home, Partners, HeaderTennis, Service } from './pages';
 
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <HeaderTennis/>
+      <HeaderTennis></HeaderTennis>
       <Service id="service"/>
-      <Partners/>
-      <Footer/>
+      <Partners id="partners"/>
+      <Footer id="footer"/>
       <GlobalStyle/>
     </ThemeProvider>
 
