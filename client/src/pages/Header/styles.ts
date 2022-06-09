@@ -9,8 +9,7 @@ export const ParentDiv = styled.div`
 `
 
 export const BackgroundImage = styled.img`
-    width: 1440px;
-    height: 753px;
+    width: 100%;
 `
 
 export const MainTitle = styled.h1`
@@ -62,7 +61,7 @@ export const ArrowRight = styled.div`
     width: 26.355830988298777px;
     
     position: absolute;
-    left: 20px;
+    left: 22px;
     bottom: 20px;
 
     background: #F5F5F5;
@@ -97,7 +96,7 @@ export const Anchor = styled.a`
 export const ArrowHolder = styled.div`
     position: absolute;
     right: 700px;
-    bottom: 42px;
+    bottom: 50px;
 
     width: 55px;
     height: 55px;
