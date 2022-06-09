@@ -1,8 +1,8 @@
 import { Home } from './home';
+import { Partners } from './Partners';
+import { HeaderTennis } from './Header';
 import Service  from './servicespage'
-import { Partners} from './Partners';
 
 export {
-    Home, Service, Partners
+    Home, Partners, HeaderTennis, Service
 };
-
