@@ -2,14 +2,17 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
-import { Partners, Service, Project } from './pages';
+import { Partners, Service, Project, HeaderTennis, Footer } from './pages';
+
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Project/>
-      <Service/>
+      <HeaderTennis/>
+      <Project id="project"/>
+      <Service id="service"/>
       <Partners/>
+      <Footer/>
       <GlobalStyle/>
     </ThemeProvider>
 
