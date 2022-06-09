@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import axios from "axios";
+import "./arrows.css"
 
 type CardProps = {
     id: number;
@@ -21,6 +22,7 @@ const PrevArrow: React.ElementType = (props) => {
         onClick={onClick}
       >
         <img src={Prev} alt="" />
+        <div className='circle'></div>
       </div>
   );
 }
