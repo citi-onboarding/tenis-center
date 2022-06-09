@@ -4,8 +4,9 @@ import logotennis from './logo-tennis.png';
 import insta from './insta.png';
 import whats from './whats.png';
 import link from './link.png';
+import logonavbar from './logonavbar.png'
 
 
 export {
- Photo, LogoCITi, logotennis, insta, whats, link
+ Photo, LogoCITi, logotennis, insta, whats, link, logonavbar
 };

@@ -1,9 +1,11 @@
 import ButtonComp from "../../components/buttoncomponent";
-import { NavbarContainer, ButtonContainer} from './style';
+import { NavbarContainer, NavbarImage, ButtonContainer} from './style';
+import { logonavbar } from '../../assets/index';
 
 export const Navbar: React.ElementType=  () =>  {
     return(
      <NavbarContainer>
+         <NavbarImage src = { logonavbar }/>
          <ButtonContainer href=""> <ButtonComp text= "Início"/></ButtonContainer >
          <ButtonContainer href=""> <ButtonComp text= "Projetos"/></ButtonContainer>
          <ButtonContainer href=""> <ButtonComp text= "Serviços"/></ButtonContainer>
