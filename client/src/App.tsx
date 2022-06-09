@@ -5,13 +5,13 @@ import { GlobalStyle } from './styles/global';
 import { Card } from './components/Card';
 import { Footer } from './pages/footer';
 import { Navbar } from './pages/navbar';
-import { Home  , Partners, HeaderTennis, Service } from './pages';
+import { Home, Partners, HeaderTennis, Service } from './pages';
 
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-       <Navbar id="service" id="partners"/>
+      <Navbar/>
       <HeaderTennis/>
       <Service id="service"/>
       <Partners id="partners"/>
