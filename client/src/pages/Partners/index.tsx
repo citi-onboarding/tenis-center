@@ -18,11 +18,14 @@ const PrevArrow: React.ElementType = (props) => {
   return (
       <div
         className={className}
-        style={{ ...style, top: "-28px", zIndex:"1", left: "-15px"}}
+        style={{ ...style, top: "-28px", zIndex:1, left: "-15px"}}
         onClick={onClick}
       >
-        <img src={Prev} alt="" />
-        <div className='circle'></div>
+        <img src={Prev} alt="" className=''/>
+        <div className='circle left'>
+          <div className='line'></div>
+          <div className='line n2'></div>
+        </div>
       </div>
   );
 }
@@ -32,10 +35,14 @@ const NextArrow: React.ElementType = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, top: "-28px", right: "140px" }}
+      style={{ ...style, top: "-28px",  zIndex:1, right: "140px" }}
       onClick={onClick}
     >
       <img src={Next} alt="" />
+      <div className='circle right'>
+        <div className='line n3'></div>
+        <div className='line n4'></div>
+      </div>
     </div>
   );
 }

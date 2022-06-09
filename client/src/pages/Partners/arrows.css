@@ -1,4 +1,53 @@
 .circle{
-    border: 3px solid black;
+    position: absolute;
+    border: 3px solid rgb(0, 0, 0, 0);
     border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+}
+
+.left{
+    top: 63px;
+    left: 0px;
+}
+
+.right{
+    top: 63px;
+    right: -82px;
+}
+
+.circle:hover{
+    border: 3px solid #F0F0F0;
+}
+
+.circle:active{
+    background: #F0F0F0;
+}
+
+.line {
+    position: absolute;
+    top: 9px;
+    left: 4px;
+    height: 2.7846778285024087px;
+    width: 18.825594566335266px;
+    transform: matrix(0.67, -0.78, 0.71, 0.67, 0, 0);
+    background: #000000;
+    z-index: 2;
+}
+
+.n2{
+    top: 22px;
+    transform: matrix(0.67, 0.78, 0.71, -0.67, 0, 0);
+}
+
+.n3{
+    transform: matrix(0.67, 0.78, 0.71, -0.67, 0, 0);
+    left: 10px;
+    top: 8px;
+}
+
+.n4{
+    left: 10px;
+    top: 22px;
 }
