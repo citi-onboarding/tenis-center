@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "styled-components": "^5.3.5"
+    "slick": "^1.12.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/react-slick": "^0.23.8"
   }
 }

@@ -8,8 +8,8 @@ export const Navbar: React.ElementType=  () =>  {
          <NavbarImage src = { logonavbar }/>
          <ButtonContainer href=""> <ButtonComp text= "Início" fontWeight={500}/></ButtonContainer >
          <ButtonContainer href=""> <ButtonComp text= "Projetos" fontWeight={500}/></ButtonContainer>
-         <ButtonContainer href=""> <ButtonComp text= "Serviços" fontWeight={500}/></ButtonContainer>
-         <ButtonContainer href=""> <ButtonComp text= "Parceiros" fontWeight={500}/></ButtonContainer>
+         <ButtonContainer href="#service"> <ButtonComp text= "Serviços" fontWeight={500}/></ButtonContainer>
+         <ButtonContainer href="#partners"> <ButtonComp text= "Parceiros" fontWeight={500}/></ButtonContainer>
          <LastButton href=""> <ButtonComp text= "Fale Conosco" backgroundColor= "#0476D9" height={44} width= {171} fontWeight={500}/></LastButton >
     </NavbarContainer>
  
