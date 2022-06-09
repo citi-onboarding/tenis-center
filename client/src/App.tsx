@@ -11,8 +11,7 @@ import { Home, Partners, HeaderTennis, Service } from './pages';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Navbar/>
-      <HeaderTennis/>
+      <HeaderTennis></HeaderTennis>
       <Service id="service"/>
       <Partners id="partners"/>
       <Footer id="footer"/>
