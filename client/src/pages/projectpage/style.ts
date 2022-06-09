@@ -48,18 +48,18 @@ export const Text = styled.div`
 `
 export const Image = styled.img`
     position: absolute;
-    width: 680px;
-    height: 680px;
-    left: 950px;
-    top: 210.41px;
+    width: 700px;
+    height: 700px;
+    left: 1050px;
+    top: 200px;
     border-radius: 332.317px;
 `
 export const BackgroundImage = styled.img`
     align-self: flex-end;
     position: absolute;
     width: 798.56px;
-    height: 906.52px;
-    left: 888px;
+    height: 920px;
+    left: 950px;
     top: 28.67px;
 
 `
