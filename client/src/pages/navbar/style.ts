@@ -14,6 +14,12 @@ export const ButtonContainer = styled.a `
 
 `;
 
+export const LastButton = styled.a `
+    text-decoration:none;
+    margin-left: 40px;
+    margin-top: 30px;
+`;
+
 export const NavbarImage = styled.img `
     height: 65px;
     width: 147.97px;
