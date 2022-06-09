@@ -71,7 +71,7 @@ const Service: React.ElementType = () => {
                 <Carousel>
                     <Slider {...settings}>
                       {CarrosselInfo?.map(({image, title, description}, index) => (
-                        <Card image={image} title={title} description={description} blue={(index %2 ===0)}/>
+                        <Card img={image} title={title} description={description} blue={(index %2 ===0)}/>
                       ))}
                     </Slider>
                 </Carousel>

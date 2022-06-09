@@ -8,7 +8,6 @@ type ButtonProps = {
     children?: React.ReactNode;
     width: string;
     height: string;
-    color?: string;
     backgroundColor?: string;
     hoverBackground?: string;
     fontWeight: number;
