@@ -6,11 +6,11 @@ export const Navbar: React.ElementType=  () =>  {
     return(
      <NavbarContainer>
          <NavbarImage src = { logonavbar }/>
-         <ButtonContainer href=""> <ButtonComp text= "Início" color-background= #0476D9 /></ButtonContainer >
-         <ButtonContainer href=""> <ButtonComp text= "Projetos"/></ButtonContainer>
-         <ButtonContainer href=""> <ButtonComp text= "Serviços"/></ButtonContainer>
-         <ButtonContainer href=""> <ButtonComp text= "Parceiros"/></ButtonContainer>
-         <ButtonContainer href=""> <ButtonComp text= "Fale Conosco"/></ButtonContainer >
+         <ButtonContainer href=""> <ButtonComp text= "Início" backgroundColor= "#0476D9" /></ButtonContainer >
+         <ButtonContainer href=""> <ButtonComp text= "Projetos" fontWeight={500}/></ButtonContainer>
+         <ButtonContainer href=""> <ButtonComp text= "Serviços" fontWeight={500}/></ButtonContainer>
+         <ButtonContainer href=""> <ButtonComp text= "Parceiros" fontWeight={500}/></ButtonContainer>
+         <ButtonContainer href=""> <ButtonComp text= "Fale Conosco" fontWeight={500}/></ButtonContainer >
     </NavbarContainer>
  
     ) 
