@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
+    position: relative;
     width: 100%;
     height: 833px;
     left: -1px;
