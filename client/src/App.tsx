@@ -8,11 +8,12 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Project/>
-      
+      <Service/>
+      <
       <GlobalStyle/>
     </ThemeProvider>
 
   );
 }
 
-export default App;
+export default App;
