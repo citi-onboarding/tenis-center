@@ -4,9 +4,8 @@ import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
 import { Project, HeaderTennis, Footer } from './pages';
 import { Card } from './components/Card';
-import { Footer } from './pages/footer';
 import { Navbar } from './pages/navbar';
-import { Home, Partners, HeaderTennis, Service } from './pages';
+import { Home, Partners, Service } from './pages';
 
 
 function App() {
