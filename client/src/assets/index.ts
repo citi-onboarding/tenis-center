@@ -4,6 +4,7 @@ import logotennis from './logo-tennis.png';
 import insta from './insta.png';
 import whats from './whats.png';
 import link from './link.png';
+import logonavbar from './logonavbar.png'
 import nextArrow from './next.png';
 import prevArrow from './prev.png';
 import LogoPB from './Logo B&W.png';
@@ -14,6 +15,9 @@ import Next from './BiggerNextGradient.png';
 import Prev from './PrevGradient.png';
 import Background_Header from './Background-Header.png';
 
+
 export {
-    LogoCITi, nextArrow, prevArrow, contorno, seta, Photo, logotennis, insta, whats, link, LogoPB, Next, Prev, Background_Header, ArrowHeader
-}
+   contorno, seta,
+ Photo, LogoCITi, logotennis, insta, whats, link, logonavbar, nextArrow, prevArrow, LogoPB, Next, Prev, Background_Header, ArrowHeader
+};
+

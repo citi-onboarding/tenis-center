@@ -2,7 +2,11 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
-import { Partners, Service, Project, HeaderTennis, Footer } from './pages';
+import { Project, HeaderTennis, Footer } from './pages';
+import { Card } from './components/Card';
+import { Footer } from './pages/footer';
+import { Navbar } from './pages/navbar';
+import { Home, Partners, HeaderTennis, Service } from './pages';
 
 
 function App() {
@@ -11,8 +15,8 @@ function App() {
       <HeaderTennis/>
       <Project id="project"/>
       <Service id="service"/>
-      <Partners/>
-      <Footer/>
+      <Partners id="partners"/>
+      <Footer id="footer"/>
       <GlobalStyle/>
     </ThemeProvider>
 

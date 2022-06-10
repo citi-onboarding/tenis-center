@@ -1,6 +1,7 @@
 import React from "react"
 import { ParentDiv,  BackgroundImage, MainTitle, HeaderDescription, TextHolder, DownArrow, NullDiv, ArrowLeft, ArrowRight, Anchor, ArrowHolder } from "./styles";
 import { Background_Header, ArrowHeader } from '../../assets';
+import { Navbar } from '../navbar';
 
 type HeaderTennisProps = {
 
@@ -15,6 +16,7 @@ export const HeaderTennis: React.ElementType = ({}: HeaderTennisProps) => {
     
     return (
         <ParentDiv>
+            <Navbar/>
             <BackgroundImage src={Background_Header}/>
             <TextHolder>
                 <MainTitle>Lorem Ipsum Dolor</MainTitle>
