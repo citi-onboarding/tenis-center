@@ -10,7 +10,7 @@ export const Footer: React.ElementType=  () =>  {
     <FooterContainer>
     <FooterImage src = { logotennis }/>
     <FooterDivider/>
-    <FooterDescription>descrição aqui</FooterDescription>
+    <FooterDescription>Descrição do espaço</FooterDescription>
     <FooterLinks src = { insta }/>
     <FooterLinks src = { whats }/>
     <FooterLinks src = { link }/>

@@ -21,7 +21,7 @@ const PrevArrow: React.ElementType = (props) => {
         style={{ ...style, top: "-28px", zIndex:1, left: "-15px"}}
         onClick={onClick}
       >
-        <img src={Prev} alt="" className=''/>
+        <img src={Prev} alt=""className=''/>
         <div className='circle left'>
           <div className='line'></div>
           <div className='line n2'></div>
