@@ -13,8 +13,10 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <HeaderTennis/>
-      <Project id="project"/>
-      <Service id="service"/>
+      <NullDiv id="project" />
+      <Project />
+      <NullDiv id="service" />
+      <Service />
       <NullDiv id="partners"></NullDiv>
       <Partners/>
       <NullDiv id="footer"></NullDiv>

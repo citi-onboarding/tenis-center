@@ -24,7 +24,6 @@ export const HeaderTennis: React.ElementType = ({}: HeaderTennisProps) => {
                 <HeaderDescription>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget lacus fermentum adipiscing elementum in placerat orci tellus vel.</HeaderDescription>
             </TextHolder>
                 <Anchor href="#service"><ArrowHolder onClick={ChangeColor}><ArrowLeft/><ArrowRight/></ArrowHolder></Anchor>
-                <NullDiv id="service"></NullDiv>  
         </ParentDiv>
     );
 }
