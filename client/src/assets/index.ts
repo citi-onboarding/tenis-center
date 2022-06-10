@@ -8,7 +8,7 @@ import logonavbar from './logonavbar.png'
 import nextArrow from './next.png';
 import prevArrow from './prev.png';
 import LogoPB from './Logo B&W.png';
-import contorno from './contorno.png'
+import contorno from './contorno2.png'
 import seta from './seta.png'
 import ArrowHeader from './ArrowHeader.png'
 import Next from './BiggerNextGradient.png';

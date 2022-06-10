@@ -7,6 +7,7 @@ export const ProjectContainer = styled.div`
     left: -1px;
     background-color: #FFFFFF;
     margin-bottom: 50px;
+    overflow: hidden;
     `
 
 export const LeftPart = styled.div`
@@ -49,19 +50,21 @@ export const Text = styled.div`
 `
 export const Image = styled.img`
     position: absolute;
-    width: 700px;
-    height: 700px;
-    left: 1050px;
-    top: 200px;
+    width: 664.63px;
+    height: 664.63px;
+    left: 984px;
+    top: 135px;
     border-radius: 332.317px;
 `
 export const BackgroundImage = styled.img`
     align-self: flex-end;
     position: absolute;
-    width: 798.56px;
-    height: 920px;
+    width: auto;
+    max-width: 798.56px;
+    height: auto;
+    max-height: 906.52px;
     left: 950px;
-    top: 28.67px;
+    top: -10px;
 
 `
 
