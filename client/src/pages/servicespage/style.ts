@@ -27,8 +27,9 @@ export const Title = styled.h1`
     width: 392px;
     height: 66px;
     margin-left: 124px;
-    margin-top: 77px;
+    margin-top: 100px;
     margin-right: 924px;
+    margin-bottom: 50px;
     font-family: 'Barlow';
     font-style: italic;
     font-weight: 600;

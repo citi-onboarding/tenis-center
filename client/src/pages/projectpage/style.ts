@@ -5,8 +5,8 @@ export const ProjectContainer = styled.div`
     width: 100%;
     height: 833px;
     left: -1px;
-    top: 1625.54px;
     background-color: #FFFFFF;
+    margin-bottom: 50px;
     `
 
 export const LeftPart = styled.div`

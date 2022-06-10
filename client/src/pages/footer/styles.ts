@@ -68,8 +68,8 @@ export const FooterMadewith = styled.h3 `
   position: absolute;
   width: 270px;
   height: 27px;
-  bottom: 96.18px;
-  margin-left: 1156px;
+  top:2770px;
+  margin-left: 1070px;
   margin-top: 143px;
   font-family: 'Sora';
   font-style: normal;
