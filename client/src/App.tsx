@@ -1,4 +1,5 @@
 import React from 'react';
+import { NullDiv } from './pages/Header/styles';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
@@ -14,8 +15,10 @@ function App() {
       <HeaderTennis/>
       <Project id="project"/>
       <Service id="service"/>
-      <Partners id="partners"/>
-      <Footer id="footer"/>
+      <NullDiv id="partners"></NullDiv>
+      <Partners/>
+      <NullDiv id="footer"></NullDiv>
+      <Footer/>
       <GlobalStyle/>
     </ThemeProvider>
 
