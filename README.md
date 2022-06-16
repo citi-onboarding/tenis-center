@@ -62,7 +62,11 @@
   O template foi criado em um monorepo e está estruturado em cliente e servidor.
 
 <p align= "center">
+<<<<<<< HEAD
     <img src = "./CITi/client-server.png" width="85%" margin-top="20px"/>
+=======
+    <img src = "./assets/client-server.png" width="85%" margin-top="20px"/>
+>>>>>>> template/main
 </p>
 
 O server tem uma estrutura base de código para a construção de uma API. Já o cliente, contém uma outra estrutura base de código para a construção de todo o frontend da aplicação. 
@@ -139,7 +143,11 @@ Ainda no server, tem uma abstração construída para facilitar o contato de pes
 
 5. Espere que o terminal esteja dessa maneira
 
+<<<<<<< HEAD
     <p align= "center"><img src= "./CITi/server-status.png" width="85%"/>
+=======
+    <p align= "center"><img src= "./assets/server-status.png" width="85%"/>
+>>>>>>> template/main
         
     </p>
 
@@ -169,7 +177,11 @@ Essa função verifica se existe um valor undefined passando no argumento.
 
 Exemplo:
 <p align= "center">
+<<<<<<< HEAD
     <img src= "./CITi/undefined.png" width="85%"/>
+=======
+    <img src= "./assets/undefined.png" width="85%"/>
+>>>>>>> template/main
     </p>
 
 <br/> 
@@ -195,7 +207,11 @@ Essa função tem a finalidade de inserir um valor de modelo dentro de um banco 
 
 Exemplo:
 <p align= "center">
+<<<<<<< HEAD
     <img src= "./CITi/insert.png" width="85%"/>
+=======
+    <img src= "./assets/insert.png" width="85%"/>
+>>>>>>> template/main
     </p>
 
 <br/> 
@@ -221,7 +237,11 @@ Essa função tem a finalidade de pegar TODOS os valores de modelo dentro de um 
 
 Exemplo:
 <p align= "center">
+<<<<<<< HEAD
     <img src= "./CITi/get.png" width="85%"/>
+=======
+    <img src= "./assets/get.png" width="85%"/>
+>>>>>>> template/main
     </p>
 
 <br/> 
@@ -247,7 +267,11 @@ Essa função tem a finalidade de procurar um valor de modelo dentro de um banco
 
 Exemplo:
 <p align= "center">
+<<<<<<< HEAD
     <img src= "./CITi/find.png" width="85%"/>
+=======
+    <img src= "./assets/find.png" width="85%"/>
+>>>>>>> template/main
     </p>
 
 <br/> 
@@ -273,7 +297,11 @@ Essa função tem a finalidade de deletar um valor de modelo dentro de um banco 
 
 Exemplo:
 <p align= "center">
+<<<<<<< HEAD
     <img src= "./CITi/delete.png" width="85%"/>
+=======
+    <img src= "./assets/delete.png" width="85%"/>
+>>>>>>> template/main
     </p>
 
 <br/> 
@@ -298,7 +326,11 @@ Essa função tem a finalidade de atualizar um valor de modelo dentro de um banc
 
 Exemplo:
 <p align= "center">
+<<<<<<< HEAD
     <img src= "./CITi/update.png" width="85%"/>
+=======
+    <img src= "./assets/update.png" width="85%"/>
+>>>>>>> template/main
     </p>
 
 <br/> 
@@ -355,7 +387,11 @@ Exemplo:
 
 3. Espere que o terminal esteja dessa maneira
 
+<<<<<<< HEAD
     <p align= "center"><img src= "./CITi/client-status.png" width="85%"/>
+=======
+    <p align= "center"><img src= "./assets/client-status.png" width="85%"/>
+>>>>>>> template/main
         
     </p>
 
